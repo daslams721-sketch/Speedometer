@@ -1,0 +1,6 @@
+{
+  "name": "Speed Tracker",
+  "description": "Ad-free real-time speedometer, background route tracker, and trip logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

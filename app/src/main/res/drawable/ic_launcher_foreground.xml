@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer speedometer arc -->
+    <path
+        android:pathData="M 34,70 A 24,24 0 1,1 74,70"
+        android:strokeWidth="5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+        
+    <!-- Shorter inner accent arc -->
+    <path
+        android:pathData="M 40,64 A 18,18 0 0,1 68,64"
+        android:strokeWidth="2.5"
+        android:strokeColor="#0284C7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Left tick -->
+    <path
+        android:pathData="M 34,70 L 38,66"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+        
+    <!-- Top tick -->
+    <path
+        android:pathData="M 54,34 L 54,40"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Right tick -->
+    <path
+        android:pathData="M 74,70 L 70,66"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- Speedometer needle -->
+    <path
+        android:pathData="M 54,62 L 68,44"
+        android:strokeWidth="4"
+        android:strokeColor="#F43F5E"
+        android:strokeLineCap="round" />
+
+    <!-- Central pin pivot -->
+    <path
+        android:pathData="M 54,62 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0"
+        android:fillColor="#FFFFFF" />
+        
+</vector>
